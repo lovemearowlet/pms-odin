@@ -1,11 +1,11 @@
 # pms-odin
-remaking pms (from scratch) in odin
+rewritting pms™️ (Pack My Sh*t) in odin
 - status: not working
-- thing im remaking: https://github.com/LearnixOS/pms
-## Dependancys:
+- the orginal project: https://github.com/LearnixOS/pms
+## Dependancies:
 - Odin
 ## TODO:
-- add the source pulling in pms
+- add the source pulling
 - make it work
-- add patching like in pms
-- make Makefile
+- add patching
+- add Makefile
