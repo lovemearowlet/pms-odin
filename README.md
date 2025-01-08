@@ -8,3 +8,4 @@ remaking pms (from scratch) in odin
 - add the source pulling in pms
 - make it work
 - add patching like in pms
+- make Makefile
