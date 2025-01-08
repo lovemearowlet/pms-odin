@@ -20,7 +20,7 @@ PackageInfo :: struct {
 
 main :: proc() {
     if len(os.args) < 2 {
-        fmt.println("Usage: pms <file_path>")
+        fmt.println("Usage: pms <file_path>")// Maybe nice this up
         return
     }
     
@@ -89,7 +89,7 @@ main :: proc() {
             fmt.println("Executing:", command)
             
             // Execute command through shell
-				cmd := command
+				cmd := command // TODO: Make this work
 				ret := posix.execl("/bin/sh", "-c", cmd)
             if ret < 0 {
                 fmt.println("Error executing command:", command)
